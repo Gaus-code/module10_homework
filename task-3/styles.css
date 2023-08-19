@@ -1,0 +1,40 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid #00BFFF;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #00BFFF;
+    padding-left: 7px;
+}
+.messages{
+    height: 450px;
+    border-radius: 15px;
+    border: 1px solid #00BFFF;
+}
+.send, .geo{
+    height: 30px;
+    background-color: #00BFFF;
+    border-radius: 15px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.messages__your-message, .location{
+    border: 2px solid #00BFFF;
+    border-radius: 15px;
+    min-height: 50px; 
+    width: 250px;
+    margin: 10px 0px 0px 240px;
+}
+.messages__server-message{
+    border: 2px solid #00BFFF;
+    border-radius: 15px;
+    min-height: 50px;
+    width: 250px;
+    margin: 10px 0px 0px 10px;
+}

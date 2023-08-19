@@ -1,0 +1,12 @@
+.button-container{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.button{
+    cursor: pointer;
+    width: 350px;
+    height: 100px;
+    font-size: 21px;
+    background-color: blueviolet;
+}

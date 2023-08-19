@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    border: none;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon_01 {
+    background-image: url(unclicked.svg);
+}
+
+.icon_02 {
+    background-image: url(clicked.svg);
+}
